@@ -5,6 +5,6 @@
 
 №|Описание|Ссылка на работу
 ---|:---:|---:
-1|Игра 'Виселица'|код
+1|Игра 'Виселица'|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw1)
 2|Coming soon...|здесь будет код
 3|Coming soon...|здесь будет код
