@@ -8,3 +8,4 @@
 1|Игра 'Виселица'|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw1)
 2|GitHub Users|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw2)
 3|Coming soon...|здесь будет код
+4|Coming soon...|здесь будет код
