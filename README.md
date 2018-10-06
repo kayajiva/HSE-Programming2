@@ -5,7 +5,7 @@
 
 №|Описание|Ссылка на работу
 ---|:---:|---:
-1|[Игра 'Виселица']('https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/HW1.md')|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw1)
-2|GitHub Users|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw2)
+1|[Игра 'Виселица'](https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/HW1.md)|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw1)
+2|[GitHub Users](https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/HW2.md)|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw2)
 3|Coming soon...|здесь будет код
 4|Coming soon...|здесь будет код
