@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<!-- Everything before <html> tag is used to beautify the webpage. You can copy it to your website without changing it for the same effect. -->
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вот мой сайт</title>
+</head>
+
+<body>
+<center>
+	<h1>Привет, мир!</h1>
+	<p>Список страниц на этом сайте:</p>
+	<ul>
+		{% for name, url in urls.items() %}
+		<li><a href="{{ url }}">{{ name }}</a></li>
+		{% endfor %}
+	</ul>
+
+
+
+<p>Социолингвистическая анкета</p>
+<form action="/thank" method="POST">
+    Пожалуйста, укажите Ваш пол: <input type="radio" name="sex" value="m">Мужской
+	<input type="radio" name="sex" value="f">Женский<br>
+    Ваш возраст: <input type="text" name="age"><br>
+    Где вы родились? <input type="text" name="birth"><br>
+    Где вы проживаете? <input type="text" name="place"><br>
+    Как бы вы назвали предмет с картинки? 
+	<input type="radio" name="multi" value="multifora">мультифора
+	<input type="radio" name="multi" value="file">файл
+	<input type="text" name="multi">свой вариант<br>
+	<img src="{{url_for('static', filename='multi.jpg')}}" width="500" height="400" /><br>
+    Как бы вы назвали предмет с картинки? 
+	<input type="radio" name="burak" value="svekla">свекла
+	<input type="radio" name="burak" value="burak">бурак
+	<input type="text" name="burak">свой вариант<br>
+	<img src="{{url_for('static', filename='burak.jpg')}}" width="500" height="300" /><br>
+    Как бы вы назвали предмет с картинки? 
+	<input type="radio" name="veho" value="mochalka">мочалка
+	<input type="radio" name="veho" value="vehotka">вехотка
+	<input type="text" name="veho">свой вариант<br>
+	<img src="{{url_for('static', filename='veho.jpg')}}" width="500" height="300" /><br>
+    Как бы вы назвали предмет с картинки? 
+	<input type="radio" name="lent" value="lentayka">лентяйка
+	<input type="radio" name="lent" value="shvabra">швабра
+	<input type="text" name="lent">свой вариант<br>
+	<img src="{{url_for('static', filename='lent.jpg')}}" width="500" height="600" /><br>
+    <input type="submit" value="Отправить">
+</form>
+</center>
+</body>
+</html>
