@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<!-- Everything before <html> tag is used to beautify the webpage. You can copy it to your website without changing it for the same effect. -->
+
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+</head>
+
+<body>
+<center>
+<h1>Привет, мир!</h1>
+	<p>Список страниц на этом сайте:</p>
+	<ul>
+		{% for name, url in urls.items() %}
+		<li><a href="{{ url }}">{{ name }}</a></li>
+		{% endfor %}
+	</ul>
+</center>
+	<form action="/thanks">
+		<label>Пожалуйста, укажите ваш пол <input type="text" name="sex"> </label><br>
+		<label>Сколько вам лет? <input type="text" name="age"></label><br>
+		<label>В каком городе вы родились? <input type="text" name="birth"></label><br>
+		<label>В каком городе вы проживаете? <input type="text" name="place"></label><br>
+		<input type="submit" value="Отправить">
+	</form>
+</center>
+</body>
+
+</html>
