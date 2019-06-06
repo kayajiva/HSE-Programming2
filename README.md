@@ -9,3 +9,4 @@
 2|[GitHub Users](https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/HW2.md)|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw2)
 3|Coming soon...|это оказалось слишком сложно((
 4|[Проект 2](https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/QuestionnaireHW.md)|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw4)
+5|[Графы](https://github.com/kayajiva/HSE-Programming2/blob/master/hw_7.ipynb)
