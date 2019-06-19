@@ -10,3 +10,4 @@
 3|Coming soon...|это оказалось слишком сложно((
 4|[Проект 2](https://github.com/ancatmara/learnpython2018/blob/master/Homeworks/QuestionnaireHW.md)|[код](https://github.com/kayajiva/HSE-Programming2/tree/master/hw4)
 5|Домашнее задание №7|[код](https://github.com/kayajiva/HSE-Programming2/blob/master/hw_7.ipynb)
+6|Финальный проект|[папка](https://github.com/kayajiva/HSE-Programming2/tree/master/final_project)
